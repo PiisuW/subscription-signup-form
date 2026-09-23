@@ -1,0 +1,1 @@
+console.log("Hello i' learning to recode because I used AI a little too much lately and can't do code myself anymore so need to refresh myself and be better because i dont want to rely on the AI I want it like an assitant but the line is tingh because can change quickly.")
