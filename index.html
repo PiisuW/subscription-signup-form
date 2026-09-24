@@ -16,37 +16,62 @@
 </head>
 <body>
 
-  <!-- Sidebar start -->
+  
 
-  Step 1
-  Your info
-
-  Step 2
-  Select plan
-
-  Step 3
-  Add-ons
-
-  Step 4
-  Summary
-
-  <!-- Sidebar end -->
+  
 
   <!-- Step 1 start -->
 
-  Personal info
-  Please provide your name, email address, and phone number.
+  <h1>Subscription signup form</h1>
 
-  Name
-  e.g. Stephen King
+  <form action="">
 
-  Email Address
-  e.g. stephenking@lorem.com
 
-  Phone Number
-  e.g. +1 234 567 890
+    <!-- Sidebar start -->
+    <ol>
+      <li>
+          <span class="step-number">Step 1</span>
+          <span class="step-label"> Your info</span>
+      </li>
 
-  Next Step
+      <li>
+        <span class="step-number">Step 2</span>
+        <span class="step-label">  Select plan</span>
+      </li>
+
+      <li>
+        <span class="step-number">Step 3</span>
+        <span class="step-label">Add-ons</span>
+      </li>
+
+      <li>
+        <span class="step-number">Step 4</span>
+        <span class="step-label">Summary
+        </span>
+      </li>
+    </ol>
+    <!-- Sidebar end -->
+
+    <div>
+      
+      <h2>Personal info</h2>
+      <p>Please provide your name, email address, and phone number.</p>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="e.g. Stephen King">
+        
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="e.g. stephenking@lorem.com">
+        
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="e.g. +1 234 567 890">
+      
+
+      <button type="button">Next Step</button>
+    </div>
+
+  </form>
 
   <!-- Step 1 end -->
 
