@@ -77,24 +77,39 @@
 
   <!-- Step 2 start -->
 
-  Select your plan
-  You have the option of monthly or yearly billing.
+  <div>
+    <h2>Select your plan</h2>
+    <p>You have the option of monthly or yearly billing.</p>
+  <fieldset>
+    <legend>Choose your plan</legend>
+      
+    <label for="Arcade">
+      <span>Arcade</span>
+      <span>$9/mo</span>
+    </label>
+    <input type="radio" id="Arcade" name="plan" required>
 
-  Arcade
-  $9/mo
+    <label for="Advanced">
+      <span>Advanced</span>
+      <span>$12/mo</span>
+    </label>
+    <input type="radio" id="Advanced" name="plan">
 
-  Advanced
-  $12/mo
+    <label for="Pro">
+      <span>Pro</span>
+      <span>$15/mo</span>
+    </label>
+    <input type="radio" id="Pro" name="plan">
+  </fieldset>
 
-  Pro
-  $15/mo
+  <label for="Time">Monthly</label>
+  <input type="checkbox" id="Time">
+  <label for="Time">Yearly</label>
+  
+  <button type="button">Go Back</button>
+  <button type="button">Next Step</button>
 
-  Monthly
-  Yearly
-
-  Go Back
-  Next Step
-
+</div>
   <!-- Step 2 end -->
 
   <!-- Step 3 start -->
