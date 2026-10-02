@@ -83,28 +83,28 @@
   <fieldset>
     <legend>Choose your plan</legend>
       
-    <label for="Arcade">
+    <label for="arcade">
       <span>Arcade</span>
       <span>$9/mo</span>
     </label>
-    <input type="radio" id="Arcade" name="plan" required>
+    <input type="radio" id="arcade" name="plan" value="arcade" required>
 
-    <label for="Advanced">
+    <label for="advanced">
       <span>Advanced</span>
       <span>$12/mo</span>
     </label>
-    <input type="radio" id="Advanced" name="plan">
+    <input type="radio" id="advanced" name="plan" value="advanced">
 
-    <label for="Pro">
+    <label for="pro">
       <span>Pro</span>
       <span>$15/mo</span>
     </label>
-    <input type="radio" id="Pro" name="plan">
+    <input type="radio" id="pro" name="plan" value="pro">
   </fieldset>
 
-  <label for="Time">Monthly</label>
-  <input type="checkbox" id="Time">
-  <label for="Time">Yearly</label>
+  <label for="time">Monthly</label>
+  <input type="checkbox" id="Time" name="billing" value="yearly">
+  <label for="time">Yearly</label>
   
   <button type="button">Go Back</button>
   <button type="button">Next Step</button>
@@ -116,24 +116,40 @@
 
   <!-- Step 3 start -->
 
-  Pick add-ons
-  Add-ons help enhance your gaming experience.
+  <div>
+  <h2>Pick add-ons</h2>
+  <p>Add-ons help enhance your gaming experience.</p>
 
-  Online service
-  Access to multiplayer games
-  +$1/mo
+  <fieldset>
+    <legend>Pick add-ons</legend>
+  
+  <label for="online-service">
+    <span>Online service</span>
+    <span>Access to multiplayer games</span>
+    <span>+$1/mo</span>
+  </label>
+  <input type="checkbox" id="online-service" name="addons" value="online-service">
 
-  Larger storage
-  Extra 1TB of cloud save
-  +$2/mo
+  <label for="larger-storage">
+    <span>Larger storage</span>
+    <span>Extra 1TB of cloud save</span>
+    <span>+$2/mo</span>
+  </label>
+  <input type="checkbox" id="larger-storage" name="addons" value="larger-storage">
 
-  Customizable Profile
-  Custom theme on your profile
-  +$2/mo
+  <label for="profile">
+    <span>Customizable Profile</span>
+    <span>Custom theme on your profile</span>
+    <span>+$2/mo</span>
+  </label>
+  <input type="checkbox" id="profile" name="addons" value="profile">
 
-  Go Back
-  Next Step
 
+</fieldset>
+
+  <button type="button">Go Back</button>
+  <button type="button">Next Step</button>
+</div>
   <!-- Step 3 end -->
 
   <!-- Step 4 start -->
